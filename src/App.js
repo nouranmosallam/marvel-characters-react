@@ -11,7 +11,7 @@ const privateKey = process.env.REACT_APP_PRIVATE_KEY;
 const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 const hashValue = getApiHash(timeStamp, privateKey, publicKey);
 const requestConstantCharacters = 'https://gateway.marvel.com/v1/public/characters?';
-const apiUrl = `${requestConstantCharacters}ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}`;
+const apiUrl = `${requestConstantCharacters}limit=100&ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}`;
 
 class App extends React.Component {
   constructor()
@@ -39,7 +39,7 @@ class App extends React.Component {
       return character.name.toLowerCase().includes(searchText.toLowerCase());
     })
     if(!characters)
-      return (<h1>No Characters</h1>);
+      return (<h1>Loading..</h1>);
     else
       return (
         <div className="tc center">

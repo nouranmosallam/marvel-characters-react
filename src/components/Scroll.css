@@ -1,0 +1,13 @@
+.Scrolls
+{ 
+    overflow: scroll;
+    border: 5px solid black;
+    height: 800px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.Scrolls::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
