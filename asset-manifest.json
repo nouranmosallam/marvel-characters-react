@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/marvel-characters-react/static/css/main.689bd62a.chunk.css",
+    "main.css": "/marvel-characters-react/static/css/main.208a66ea.chunk.css",
     "main.js": "/marvel-characters-react/static/js/main.ed77c808.chunk.js",
     "main.js.map": "/marvel-characters-react/static/js/main.ed77c808.chunk.js.map",
     "runtime-main.js": "/marvel-characters-react/static/js/runtime-main.4efb0cef.js",
@@ -12,7 +12,7 @@
     "static/js/3.7e3f0a54.chunk.js.map": "/marvel-characters-react/static/js/3.7e3f0a54.chunk.js.map",
     "index.html": "/marvel-characters-react/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/marvel-characters-react/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.689bd62a.chunk.css.map": "/marvel-characters-react/static/css/main.689bd62a.chunk.css.map",
+    "static/css/main.208a66ea.chunk.css.map": "/marvel-characters-react/static/css/main.208a66ea.chunk.css.map",
     "static/js/2.640588ed.chunk.js.LICENSE.txt": "/marvel-characters-react/static/js/2.640588ed.chunk.js.LICENSE.txt",
     "static/media/logo.103b5fa1.svg": "/marvel-characters-react/static/media/logo.103b5fa1.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.4efb0cef.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.640588ed.chunk.js",
-    "static/css/main.689bd62a.chunk.css",
+    "static/css/main.208a66ea.chunk.css",
     "static/js/main.ed77c808.chunk.js"
   ]
 }
